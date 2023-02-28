@@ -23,6 +23,7 @@ header{
     width: 75%;
     margin: auto;
     padding-left: 50px;
+    height: 80vh;
 }
 .button-task{
     padding: 5px 10px 5px 10px;
@@ -49,6 +50,12 @@ nav{
     color: white;
     border: 1px solid lightgray;
 }
+.sales{
+    background-color: chartreuse;
+}
+.webs{
+    background-color: deeppink;
+}
 .edit{
     background-color: cornflowerblue;
 }
@@ -67,17 +74,33 @@ nav{
     border-radius: 50%;
     color: green;
     font-size: 0.7em;
+    padding: 3px;
 }
 .done::before{
-    content: "&#10008;";/*errore qui*/
+    content: "V";
+}
+.undone::before{
+    content: "X";
 }
 .undone{
     border: 1px solid red;
     border-radius: 50%;
     color: red;
     font-size: 0.7em;
+    padding: 3px;
 }
 .task-desc{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+h3::before{
+    content: "\2B9F";
+}
+h3{
+    margin-top: 20px;
+}
+li{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
