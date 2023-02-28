@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: gainsboro;
@@ -40,8 +41,9 @@ header{
 nav{
     border-bottom: 1px solid lightgray;
 }
+/*tags*/
 .btn-tag{
-    padding: 5px;
+    padding: 5px 10px 5px 10px;
     border-radius: 15px;
     font-size: 0.7em;
     color: white;
@@ -50,9 +52,32 @@ nav{
 .edit{
     background-color: cornflowerblue;
 }
+.goals{
+    background-color: mediumpurple;
+}
+.recr{
+    background-color: mediumseagreen;
+}
+.mobile{
+    background-color: darkorange;
+}
+/*end tags*/
 .done{
     border: 1px solid green;
     border-radius: 50%;
     color: green;
     font-size: 0.7em;
+}
+.done::before{
+    content: "&#10008;";/*errore qui*/
+}
+.undone{
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    font-size: 0.7em;
+}
+.task-desc{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
