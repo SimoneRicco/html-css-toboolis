@@ -40,3 +40,19 @@ header{
 nav{
     border-bottom: 1px solid lightgray;
 }
+.btn-tag{
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 0.7em;
+    color: white;
+    border: 1px solid lightgray;
+}
+.edit{
+    background-color: cornflowerblue;
+}
+.done{
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    font-size: 0.7em;
+}
