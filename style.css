@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    display: inline-block;
+}
+header{
+    height: 70px;
+}
+.title-logo{
+    margin-left: 50px;
+}
